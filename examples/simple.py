@@ -15,7 +15,7 @@ from wordcloud import WordCloud
 d = path.dirname(__file__) if "__file__" in locals() else os.getcwd()
 
 # Read the whole text.
-text = open(path.join(d, 'constitution.txt')).read()
+text = open(path.join(d, 'Update constitution.txt')).read()
 
 # Generate a word cloud image
 wordcloud = WordCloud().generate(text)
